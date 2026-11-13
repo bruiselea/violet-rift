@@ -1,0 +1,4 @@
+/* Keep decorative rain in place. Also respects OS Reduce Motion without this snippet. */
+.theme-dark .workspace-split.mod-left-split .workspace-leaf-content[data-type="file-explorer"]::after {
+  animation: none !important;
+}

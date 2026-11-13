@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Rift Pixel";
+  src: url("./RiftPixel-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+/* Example: .pixel-title { font-family: "Rift Pixel", monospace; font-weight: 400; } */

@@ -1,0 +1,34 @@
+/* Optional Wake dashboard styling. Enable only alongside Violet Rift. */
+/* Match the installed Wake dashboard without changing its saved preferences. */
+.theme-dark .wake-app.wake-app {
+  --wake-accent: #b981ec;
+  --wake-tint: #2c1c3e;
+  --wake-ink: #e8e0ef;
+}
+.theme-dark .wake-app .wake-card {
+  border-radius: 6px;
+  border-color: #453059;
+  box-shadow: inset 0 2px #d39eff0c, 0 4px 20px #0002;
+}
+.theme-dark .wake-app .wake-kind-priority {
+  background: linear-gradient(145deg, #352046, #21162e);
+  border-color: #785091;
+  box-shadow: inset 3px 0 #bc83ef, 0 0 25px #a453d915;
+}
+.theme-dark .wake-app :is(button, input:not([type="checkbox"]), textarea, select, .wake-segments) {
+  border-radius: 4px;
+}
+
+.theme-dark .wake-app .wake-card {
+  border-radius: 0;
+  border: 2px solid #4c315f;
+  box-shadow: inset 2px 2px #76508e33, 3px 3px 0 #090610;
+}
+.theme-dark .wake-app .wake-kind-priority {
+  background: var(--rift-drips) repeat-x left top / 384px 32px, linear-gradient(#291734e6, #21162ef2), var(--rift-stone);
+  border-color: #8b49ae;
+  box-shadow: inset 3px 0 #bc68ed, 3px 3px 0 #090610;
+}
+.theme-dark .wake-app :is(button, input:not([type="checkbox"]), textarea, select, .wake-segments) {
+  border-radius: 0;
+}

@@ -1,0 +1,8 @@
+/* Minimal writing mode: retain palette and square edges, remove decoration. */
+.theme-dark .view-header::after,
+.theme-dark .workspace-split.mod-left-split .workspace-leaf-content[data-type="file-explorer"]::after {
+  display: none !important;
+}
+.theme-dark .workspace-split.mod-left-split .workspace-leaf-content[data-type="file-explorer"],
+.theme-dark .workspace-tab-header-container { background-image: none !important; }
+.theme-dark .wake-app .wake-kind-priority { background-image: none !important; }
